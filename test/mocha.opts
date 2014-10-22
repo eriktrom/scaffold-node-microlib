@@ -1,6 +1,7 @@
 --compilers coffee:coffee-script
 --reporter spec
 --require test/common
+--require coffee-script/register
 --watch
 --growl
 --check-leaks
